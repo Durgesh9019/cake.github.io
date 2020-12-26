@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+	
+<head>
+	<title> Shine's Bakery</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="logos.png"/>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="hero">
+			<div class="nav-bar">
+				<div class="nav-logo">
+					<img src="download.png">
+				</div>
+				<div class="nav-links" id="nav-links">
+					<i class="fa fa-close" onclick="closeMenu()"></i>
+					<ul>
+						<a href="#"><li>HOME</li></a>
+						<a href="about.html"><li>ABOUT</li></a>
+						<a href="#"><li>RECIPE</li></a>
+						<a href="contact.html"><li>CONTACT</li></a>         
+					</ul>
+					<button type="button" class="btn"><a href="Login.html">SIGN UP</a></button>
+
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</div>
+			<div class="image"></div>
+			
+			<div class="banner-title">
+				<h1>You Can't buy<span> HAPPINESS <br>But you can Buy<br>CAKE... </span></h1>
+				<button type="button"class="btn"><a href="order.html">ORDER CAKE </a></button>
+			</div>
+			<div class="vertical-bar">
+				<div class="search-icon">
+				<i class="fa fa-list"></i>
+				<i class="fa fa-search"></i>
+			</div>
+
+				<div class="social-icon">
+					<a href="https://www.facebook.com/durgesh.dharmadhikari.1" target="_blank">
+					<i class="fa fa-facebook"></a></i>
+						<a href="https://www.instagram.com/d.dharmadhikari?r=nametag" target="-blank">
+					<i class="fa fa-instagram"></a></i>
+					<i class="fa fa-twitter"></i>
+				</div>
+				
+			</div>
+
+		<script>
+			var show=document.getElementById("nav-links");
+			function showMenu(){
+				show.style.right="0";
+			}
+			function closeMenu(){
+				show.style.right="-200px";
+			}
+		</script>
+
+
+
+	</body>
